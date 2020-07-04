@@ -1,6 +1,6 @@
 from math import sqrt, log
 from matplotlib import pyplot as plt
-f, delta = lambda t, x: (t**2)*sqrt(x**2 + t**2), lambda a: abs(a[0]-a[1]) #Подынтегральная функция
+f, delta = lambda t, x: (t**2)*sqrt(x**2 + t**2), lambda a: abs(a[0]-a[1])
 def F(t, x):
     t = t if t != 0 else 10E-20
     x = x if x != 0 else 10E-20
